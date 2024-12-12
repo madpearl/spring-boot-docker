@@ -1,4 +1,4 @@
-FROM docker.io/openjdk:8-jdk-alpine
+FROM quay.io/logbee/openjdk-8-jdk-alpine
 VOLUME /tmp
 ARG DEPENDENCY=target/dependency
 COPY ${DEPENDENCY}/BOOT-INF/lib /app/lib
