@@ -3,7 +3,7 @@
 ### By Maven
 
 ```sh
-# Package
+# Package 1
 $ mvn package -Dmaven.test.skip=true
 
 # Build Docker image
